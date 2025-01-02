@@ -133,7 +133,9 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			('iperov', 'thomas_cruise_224'),
 			('iperov', 'thomas_holland_224'),
 			('iperov', 'vin_diesel_224'),
-			('iperov', 'vladimir_putin_224')
+			('iperov', 'vladimir_putin_224'),
+			('iperov', 'taylor_swift_224'),
+			('iperov', 'jessica_alba_224')
 		])
 	if download_scope == 'full':
 		model_config.extend(
